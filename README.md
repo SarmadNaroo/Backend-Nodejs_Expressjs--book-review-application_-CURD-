@@ -1,4 +1,4 @@
-# book-review-application
+# Node.js based book-review-application
 -Retrieve a list of all books available in the bookshop
 -Search for specific books and retrieve their details based on the book’s ISBN code, author names and titles
 -Retrieve reviews/comments for specified books
