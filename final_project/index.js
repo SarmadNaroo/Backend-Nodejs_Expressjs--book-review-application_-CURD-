@@ -27,6 +27,15 @@ app.use("/customer/auth/*", function auth(req,res,next){
          return res.status(403).json({message: "User not logged in"})
      }
 });
+
+// Add another route to return some test data
+app.get("/code-review/test", (req, res) => {
+  res.json({
+    message: "This is a test message from the code review route.",
+    status: "success",
+    timestamp: new Date().toISOString(),
+  });
+});
  
 const PORT =5000;
 
